@@ -1,0 +1,48 @@
+{
+  "name": "next-analytics-tracker",
+  "version": "1.0.0",
+  "description": "Google Analytics 4 tracker component for Next.js App Router with automatic page views and button click tracking",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "next": ">=14.0.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "next": "^15",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "nextjs",
+    "next.js",
+    "analytics",
+    "google-analytics",
+    "ga4",
+    "gtag",
+    "tracker",
+    "pageview",
+    "click-tracking"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/next-analytics-tracker.git"
+  },
+  "author": "Your Name <your@email.com>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tsup": "^8.5.1"
+  }
+}
