@@ -10,7 +10,7 @@ declare global {
 }
 
 interface AnalyticsTrackerProps {
-  gaId?: string;
+  gaId: string;
   /** Custom selectors for elements that should trigger click tracking */
   clickableSelectors?: string[];
 }
