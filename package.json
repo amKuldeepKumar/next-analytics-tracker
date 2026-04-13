@@ -1,6 +1,6 @@
 {
   "name": "next-analytics-tracker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Google Analytics 4 tracker component for Next.js App Router with automatic page views and button click tracking",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
